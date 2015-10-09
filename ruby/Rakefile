@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+require 'rake'
+require 'rspec/core/rake_task'
+
+desc "Run fibonacci tests"
+RSpec::Core::RakeTask.new(:test_fibonacci) do |t|
+  t.pattern = Dir.glob('spec/**/fibonacci_spec.rb')
+  t.rspec_opts = '--format documentation'
+end
+
+desc "Run same arrays tests"
+RSpec::Core::RakeTask.new(:test_arrays) do |t|
+  t.pattern = Dir.glob('spec/**/same_arrays_spec.rb')
+  t.rspec_opts = '--format documentation'
+end
+
+desc "Run minesweeper tests"
+RSpec::Core::RakeTask.new(:test_minesweeper) do |t|
+  t.pattern = Dir.glob('spec/**/minesweeper_spec.rb')
+  t.rspec_opts = '--format documentation'
+end
+
+desc "Run all tests"
+RSpec::Core::RakeTask.new(:all_tests) do |t|
+  t.pattern = Dir.glob('spec/**/*_spec.rb')
+  t.rspec_opts = '--format documentation'
+end
+
+task :default => :all_tests
