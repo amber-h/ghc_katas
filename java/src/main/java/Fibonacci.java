@@ -16,13 +16,13 @@ public class Fibonacci {
 
     }
 
-    public Integer fibonacciLoop(Integer index) {
-        if (index == 1 || index == 2) {
+    public Integer fibonacciLoop(Integer nthNumber) {
+        if (nthNumber == 1 || nthNumber == 2) {
             return 1;
         }
         int firstFibo = 1, secondFibo = 1;
         int sum = 0;
-        for (int i = 3; i <= index; i++) {
+        for (int i = 3; i <= nthNumber; i++) {
             //Fibonacci number is sum of previous two Fibonacci number
             sum = firstFibo + secondFibo;
             firstFibo = secondFibo;
