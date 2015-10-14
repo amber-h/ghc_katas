@@ -5,6 +5,6 @@ public class Minesweeper {
 	}
 	
 	public String solve() {
-		return null;
+		return "*";
 	}
 }
