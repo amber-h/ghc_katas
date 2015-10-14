@@ -35,10 +35,12 @@ a mine and the character '.' represents no-mine.
 
 Example input (a 4 x 3 mine-field of 12 squares, 2 of
 which are mines)
+```
 4 3
 *...
 ..*.
 ....
+```
 
 Your task is to write a program to accept this input and
 produce as output a hint-field of identical dimensions
@@ -46,9 +48,11 @@ where each square is a * for a mine or the number of
 adjacent mine-squares if the square does not contain a mine.
 
 Example output (for the above input)
+```
 *211
 12*1
 0111
+```
 
 # Same Arrays Kata
 Given two arrays, the purpose of this Kata is to check if these two arrays are the same. "The same" in this Kata means the two arrays contains arrays of 2 numbers which are same and not necessarily sorted the same way. i.e. [[2,5], [3,6]] is same as [[5,2], [3,6]] or [[6,3], [5,2]] or [[6,3], [2,5]] etc
