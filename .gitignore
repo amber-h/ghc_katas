@@ -1,2 +1,7 @@
 # Remove python virtualenv
 security/log-me-in/env
+java/build
+.idea
+.gradle
+javascript/node_modules
+**/*.iml
