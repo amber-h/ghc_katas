@@ -1,31 +1,32 @@
 # Grace Hopper Coding Katas
 
-## The katas are organized by language
-## Each of the languages will have the same katas
+The katas are organized by language
+
+Each of the languages will have the same katas
 
 # Java
 
-## You will need gradle and Java 8 installed for these katas
-## Run tests
-### gradle test
+You will need gradle and Java 8 installed for these katas
 
-## See all gradle tasks
-### gradle tasks
+Run tests: ``` gradle test ```
+
+See all gradle tasks: ``` gradle tasks ```
 
 # JavaScript
 
-## You will need gulp and node installed for these katas
-## Run tests
-### gulp test
+You will need gulp and node installed for these katas
 
-## See all gulp tasks
-### gulp help
+Run tests: ``` gulp test ```
+
+See all gulp tasks: ``` gulp help ```
 
 # ruby
 
-## You will need ruby and bundle installed for these katas
-## run tests
-## rake all_tests
+You will need ruby and bundle installed for these katas 
+
+```run tests```
+
+``` rake all_tests```
 
 # Minesweeper Kata
 A field of N x M squares is represented by N lines of
