@@ -9,17 +9,23 @@
 ## Run tests
 ### gradle test
 
+## See all gradle tasks
+### gradle tasks
+
 # JavaScript
 
 ## You will need gulp and node installed for these katas
 ## Run tests
 ### gulp test
 
+## See all gulp tasks
+### gulp help
+
 # ruby
 
 ## You will need ruby and bundle installed for these katas
 ## run tests
-## ruby test.rb
+## rake all_tests
 
 # Minesweeper Kata
 A field of N x M squares is represented by N lines of
