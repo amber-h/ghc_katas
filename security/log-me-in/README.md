@@ -24,18 +24,25 @@ Note: Mac OS X users can do the following:
     $ virtualenv -p /path/to/python2 env
     $ source env/bin/activate
     ```
+
 2. Install requirements for the application.
+
     ```bash
     (env)$ pip install -r requirements.txt
     ```
+
 3. Run the program.
+
     ```bash
     (env)$ python app.py
     ```
+
 4. When you are done playing, you can escape from the virtual environment.
+
     ```bash
     (env)$ deactivate
     ```
+
 5. You can peek at the answer in the answer file, but that's no fun. ;)
 
 ###Player Instructions
