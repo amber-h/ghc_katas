@@ -6,7 +6,7 @@ chai.use(chaiGulpHelpers);
 
 gulp.task('default', function () {
     return gulp.src(['src/main/*.js','src/test/*.spec.js'], {read: false})
-	.pipe(mocha({reporter: 'nyan'}));
+	.pipe(mocha());
 });
 
 gulp.task('minesweeper', function () {

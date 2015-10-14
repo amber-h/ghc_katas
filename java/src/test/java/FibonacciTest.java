@@ -2,52 +2,53 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertEquals;
 
 public class FibonacciTest {
-
     @Test
-    public void shouldReturn1Forfirst() {
+    public void shouldReturnAnEmptyArrayForZero() {
         Fibonacci fibonacci = new Fibonacci();
-        Integer fibonacciNumber = fibonacci.fibonacciLoop(1);
-
-        assertThat(fibonacciNumber, is(1));
+        ArrayList<Integer> sequence = fibonacci.forNumber(0);
+        assertEquals(0, sequence.size());
     }
 
     @Test
-    public void shouldReturn1ForSecond() {
+    public void shouldReturnAnArrayOfOne() {
         Fibonacci fibonacci = new Fibonacci();
-        Integer fibonacciNumber = fibonacci.fibonacciLoop(2);
-
-        assertThat(fibonacciNumber, is(1));
+        ArrayList<Integer> sequence = fibonacci.forNumber(1);
+        assertEquals(1, sequence.size());
+        assertEquals(Integer.valueOf(1), sequence.get(0));
     }
 
     @Test
-    public void shouldReturn2ForThird() {
+    public void shouldReturnAnArrayWithTheFirst3Numbers() {
         Fibonacci fibonacci = new Fibonacci();
-        Integer fibonacciNumber = fibonacci.fibonacciLoop(3);
-
-        assertThat(fibonacciNumber, is(2));
+        ArrayList<Integer> sequence = fibonacci.forNumber(3);
+        assertEquals(Integer.valueOf(1), sequence.get(0));
+        assertEquals(Integer.valueOf(1), sequence.get(1));
+        assertEquals(Integer.valueOf(2), sequence.get(2));
     }
+
+	@Test
+	public void shouldReturnAnArrayWithTheFirstFiveNumbers() {
+		Fibonacci fibonacci = new Fibonacci();
+		ArrayList<Integer> sequence = fibonacci.forNumber(5);
+		assertEquals(Integer.valueOf(1), sequence.get(0));
+		assertEquals(Integer.valueOf(1), sequence.get(1));
+		assertEquals(Integer.valueOf(2), sequence.get(2));
+		assertEquals(Integer.valueOf(3), sequence.get(3));
+		assertEquals(Integer.valueOf(5), sequence.get(4));
+	}
 
     @Test
-    public void shouldReturn610ForFifteenth() {
+    public void shouldReturnAnArrayWithTheListOfTheFirstTenNumbers() {
         Fibonacci fibonacci = new Fibonacci();
-        Integer fibonacciNumber = fibonacci.fibonacciLoop(15);
-
-        assertThat(fibonacciNumber, is(610));
+        ArrayList<Integer> sequence = fibonacci.forNumber(10);
+        assertEquals(10, sequence.size());
+        assertEquals(Integer.valueOf(1), sequence.get(0));
+        assertEquals(Integer.valueOf(1), sequence.get(1));
+        assertEquals(Integer.valueOf(2), sequence.get(2));
+        assertEquals(Integer.valueOf(3), sequence.get(3));
+        assertEquals(Integer.valueOf(5), sequence.get(4));
     }
-
-    @Test
-    public void should() {
-        Fibonacci fibonacci = new Fibonacci();
-        final ArrayList<Integer> integers = fibonacci.forNumber(15);
-
-        assertThat(integers.size(), is(15));
-        assertThat(integers.get(0), is(1));
-        assertThat(integers.get(14), is(610));
-
-    }
-
 }

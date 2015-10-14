@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 .idea
 build
 **/*.iml
 **/**/node_modules
+=======
+*.xml
+.idea
+java/build
+>>>>>>> upstream/possible_solutions
