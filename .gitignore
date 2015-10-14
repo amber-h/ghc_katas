@@ -1,3 +1,7 @@
-*.xml
 .idea
+build
+**/*.iml
+**/**/node_modules
+*.xml
 java/build
+
