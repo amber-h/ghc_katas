@@ -6,7 +6,7 @@ Each of the languages will have the same katas
 
 # Java
 
-You will need gradle and Java 8 installed for these katas
+You will need gradle and Java 8 installed for these katas.
 
 Run tests: ``` gradle test ```
 
@@ -22,7 +22,7 @@ See all gulp tasks: ``` gulp help ```
 
 # ruby
 
-You will need ruby and bundle installed for these katas 
+You will need ruby and bundle installed for these katas.
 
 ```run tests```
 
