@@ -1,0 +1,5 @@
+This game highlights the problems with SQL Injection.
+
+' union select id, password, username from users LIMIT 1 OFFSET 9--
+
+among other answers

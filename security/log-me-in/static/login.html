@@ -1,0 +1,9 @@
+$def with (error, login_form)
+
+    $if error is not None:
+    <span>$error</span>
+
+<h3>Ugly Login</h3>
+<form action="" method="post">
+    $:login_form.render()
+</form>
