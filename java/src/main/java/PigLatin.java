@@ -25,6 +25,10 @@ Treats 'qu' as a single phoneme, ex:
 "queen" → "eenquay"
 "square" → "aresquay"
 
+bonus:
+  * make sure you maintain capitalization in sentences, but with new letter capitalized
+  * ex: "Hello, I am from Canada" -> "Ellohay, Iway amway omfray Anadacay"
+
  */
 
 public class PigLatin {
