@@ -39,6 +39,8 @@ import java.util.Map;
 https://en.wikipedia.org/wiki/Round-robin_tournament
 https://nrich.maths.org/1443
 
+Example implementation in Ruby: https://github.com/ethome/roundrobin
+
 We want to write a Round Robin scheduling app. For example, all teams should be paired together such that:
 	- A team is never paired with themselves
 	- A team is never paired with another team more than once
