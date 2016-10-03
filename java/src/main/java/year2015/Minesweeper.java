@@ -1,3 +1,5 @@
+package year2015;
+
 public class Minesweeper {
 	
 	public Minesweeper(String map) {

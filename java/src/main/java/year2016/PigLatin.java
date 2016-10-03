@@ -1,3 +1,5 @@
+package year2016;
+
 /*
 
 https://en.wikipedia.org/wiki/Pig_Latin
@@ -26,7 +28,7 @@ Treats 'qu' as a single phoneme, ex:
 "square" → "aresquay"
 
 bonus:
-  * make sure you maintain capitalization in sentences, but with new letter capitalized
+  * make sure you maintain capitalization in sentences, but with java.new letter capitalized
   * ex: "Hello, I am from Canada" -> "Ellohay, Iway amway omfray Anadacay"
 
  */

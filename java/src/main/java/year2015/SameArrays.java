@@ -1,4 +1,6 @@
-import java.util.ArrayList; 
+package year2015;
+
+import java.util.ArrayList;
 
 public class SameArrays {
 	public SameArrays() {

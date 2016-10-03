@@ -1,3 +1,5 @@
+package year2016;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,7 +21,6 @@ public class PigLatinTest {
 
         assertThat(actualResult, is("akecay"));
     }
-
 
     @Test
     public void convertsASingleWordBeginningWithTwoConsonantsToPigLatin(){
