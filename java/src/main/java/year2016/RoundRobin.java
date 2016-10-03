@@ -31,8 +31,11 @@ bonus:
 
  */
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static java.util.Arrays.asList;
 
 /*
 
@@ -85,7 +88,7 @@ Example of pairing uneven number of teams:
 
 public class RoundRobin {
 
-    public static Map<String, List<String>> generateSchedule(List<String> names) {
+    public static Map<String, List<String>> generateSchedule(List<String> teams) {
         return null;
     }
 }
