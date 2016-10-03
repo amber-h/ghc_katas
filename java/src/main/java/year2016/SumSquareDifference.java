@@ -18,16 +18,7 @@ Find the difference between the sum of the squares of the first one hundred natu
 public class SumSquareDifference {
 
     public static int findDifference(int number) {
-        int sum = 0;
-        int sumOfSquares = 0;
-
-        for(int i = 0; i <= number; i++) {
-            sumOfSquares += Math.pow(i, 2);
-            sum += i;
-        }
-        int squareOfSum = (int) Math.pow(sum, 2);
-
-        return squareOfSum - sumOfSquares;
+        return 0;
     }
 
 }

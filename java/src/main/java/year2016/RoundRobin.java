@@ -40,6 +40,8 @@ import static java.util.Arrays.asList;
 /*
 
 https://en.wikipedia.org/wiki/Round-robin_tournament
+
+I would suggest following the "rotating polygon" method to solve this
 https://nrich.maths.org/1443
 
 Example implementation in Ruby: https://github.com/ethome/roundrobin
