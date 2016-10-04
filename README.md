@@ -43,27 +43,33 @@ run tests: ``` rake all_tests```
 The goal is to convert sentences to sentences in [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin). Pig Latin is described as follows:
 
 For words that begin with consonants, all letters before the initial vowel are placed at the end of the word sequence. Then, "ay" is added, as in the following examples:
-
+```
 "pig" → "igpay"
 "banana" → "ananabay"
 "trash" → "ashtray"
 "happy" → "appyhay"
 "duck" → "uckday"
+```
 
 For words that begin with a vowel, one just adds "way" to the end. Examples are:
-
+```
 "eat" → "eatway"
 "omelet" → "omeletway"
 "are" → "areway"
+```
 
 For sentences the rules apply to each word individually:
 
+```
 "Hello how are you?" → "Ellohay owhay areway ouyay?"
+```
 
 'qu' should be treated as a single phoneme, ex:
 
+```
 "queen" → "eenquay"
 "square" → "aresquay"
+```
 
 bonus:
   * make sure you maintain capitalization in sentences, but with new letter capitalized
