@@ -36,6 +36,56 @@ You will need ruby and bundle (```gem install bundler```) installed for these ka
 
 run tests: ``` rake all_tests```
 
+# 2016 Katas
+
+# Pig Latin Kata
+
+The goal is to convert sentences to sentences in [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin). Pig Latin is described as follows:
+
+For words that begin with consonants, all letters before the initial vowel are placed at the end of the word sequence. Then, "ay" is added, as in the following examples:
+
+"pig" → "igpay"
+"banana" → "ananabay"
+"trash" → "ashtray"
+"happy" → "appyhay"
+"duck" → "uckday"
+
+For words that begin with a vowel, one just adds "way" to the end. Examples are:
+
+"eat" → "eatway"
+"omelet" → "omeletway"
+"are" → "areway"
+
+For sentences the rules apply to each word individually:
+
+"Hello how are you?" → "Ellohay owhay areway ouyay?"
+
+'qu' should be treated as a single phoneme, ex:
+
+"queen" → "eenquay"
+"square" → "aresquay"
+
+bonus:
+  * make sure you maintain capitalization in sentences, but with new letter capitalized
+  * ex: "Hello, I am from Canada" -> "Ellohay, Iway amway omfray Anadacay"
+
+# Sum Square Difference Kata
+
+This kata is Problem 6 from Project Euler:
+
+The sum of the squares of the first ten natural numbers is,
+
+12 + 22 + ... + 102 = 385
+The square of the sum of the first ten natural numbers is,
+
+(1 + 2 + ... + 10)2 = 552 = 3025
+Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 − 385 = 2640.
+
+Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum. Your programming should be able to give you the difference between the sum of squares for the first 'n' natural numbers.
+
+
+# 2015 Katas
+
 # Minesweeper Kata
 A field of N x M squares is represented by N lines of
 exactly M characters each. The character '*' represents
