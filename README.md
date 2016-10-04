@@ -38,7 +38,7 @@ run tests: ``` rake all_tests```
 
 # 2016 Katas
 
-# Pig Latin Kata
+## Pig Latin Kata
 
 The goal is to convert sentences to sentences in [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin). Pig Latin is described as follows:
 
@@ -69,7 +69,7 @@ bonus:
   * make sure you maintain capitalization in sentences, but with new letter capitalized
   * ex: "Hello, I am from Canada" -> "Ellohay, Iway amway omfray Anadacay"
 
-# Sum Square Difference Kata
+## Sum Square Difference Kata
 
 This kata is Problem 6 from Project Euler:
 
@@ -86,7 +86,7 @@ Find the difference between the sum of the squares of the first one hundred natu
 
 # 2015 Katas
 
-# Minesweeper Kata
+## Minesweeper Kata
 A field of N x M squares is represented by N lines of
 exactly M characters each. The character '*' represents
 a mine and the character '.' represents no-mine.
@@ -112,7 +112,7 @@ Example output (for the above input)
 0111
 ```
 
-# Same Arrays Kata
+## Same Arrays Kata
 Given two arrays, the purpose of this Kata is to check if these two arrays are the same. "The same" in this Kata means the two arrays contains arrays of 2 numbers which are same and not necessarily sorted the same way. i.e. [[2,5], [3,6]] is same as [[5,2], [3,6]] or [[6,3], [5,2]] or [[6,3], [2,5]] etc
 
 [[2,5], [3,6]] is NOT the same as [[2,3], [5,6]]
