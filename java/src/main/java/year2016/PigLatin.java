@@ -28,7 +28,7 @@ Treats 'qu' as a single phoneme, ex:
 "square" → "aresquay"
 
 bonus:
-  * make sure you maintain capitalization in sentences, but with java.new letter capitalized
+  * make sure you maintain capitalization in sentences, but with new letter capitalized
   * ex: "Hello, I am from Canada" -> "Ellohay, Iway amway omfray Anadacay"
 
  */
