@@ -19,8 +19,6 @@ task wrapper(type: Wrapper) {
 }
 
 test {
-	include '**Test*'
-
 	testLogging {
 			showStandardStreams = true
 			events "passed", "skipped", "failed"
