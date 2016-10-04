@@ -1,6 +1,6 @@
 'use strict';
 
-require('../main/sameArrays.js');
+require('../../main/year2015/sameArrays.js');
 var expect = require('chai').expect;
 
 xdescribe("should solve same arrays", function() {

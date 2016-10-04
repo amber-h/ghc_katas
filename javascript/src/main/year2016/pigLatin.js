@@ -1,0 +1,3 @@
+pigLatin = function(sentence) {
+    return "";
+}

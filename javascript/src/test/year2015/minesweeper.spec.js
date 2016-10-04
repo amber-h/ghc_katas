@@ -1,6 +1,6 @@
 'use strict';
 
-require('../main/minesweeper.js');
+require('../../main/year2015/minesweeper.js');
 var expect = require('chai').expect;
 
 xdescribe("should solve minesweeper", function() {

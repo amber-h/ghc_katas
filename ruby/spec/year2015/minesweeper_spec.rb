@@ -1,4 +1,4 @@
-require_relative "../src/minesweeper"
+require_relative "../../src/year2015/minesweeper"
 
 RSpec.describe "minesweeper" do
   it "should return a translated string for a mine" do

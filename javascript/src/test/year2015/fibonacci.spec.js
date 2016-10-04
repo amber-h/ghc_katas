@@ -1,6 +1,6 @@
 'use strict';
 
-require('../main/fibonacci.js');
+require('../../main/year2015/fibonacci.js');
 var expect = require('chai').expect;
 
 describe("should solve same arrays", function() {

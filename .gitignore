@@ -4,5 +4,5 @@ java/build/
 java/.gradle/
 .idea
 .gradle
-javascript/node_modules
+javascript/node_modules/*
 **/*.iml

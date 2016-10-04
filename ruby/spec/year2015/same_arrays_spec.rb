@@ -1,4 +1,4 @@
-require_relative '../src/same_arrays'
+require_relative '../../src/year2015/same_arrays'
 
 RSpec.describe "same arrays" do
   it "should return true for two empty arrays" do

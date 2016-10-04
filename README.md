@@ -16,6 +16,10 @@ See all gradle tasks: ``` gradle tasks ```
 
 You will need gulp and node installed for these katas
 
+Download dependencies: ``` npm install ```
+
+To download the gulp cli: ```npm install --global gulp-cli```
+
 Run tests: ``` gulp test ```
 
 See all gulp tasks: ``` gulp help ```

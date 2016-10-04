@@ -1,4 +1,4 @@
-require_relative "../src/fibonacci"
+require_relative "../../src/year2015/fibonacci"
 
 RSpec.describe "fibonacci" do
   it "should return the first five numbers in the fibonacci sequence" do
