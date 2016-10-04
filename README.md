@@ -1,8 +1,12 @@
 # Grace Hopper Coding Katas
 
-The katas are organized by language
+The katas are organized by language, as well as year
 
 Each of the languages will have the same katas
+
+In each language directory, there is a 2015 and 2016 folder for last years and this years code katas
+
+For the 2016 code katas, the description of the problem is at the top of each class
 
 # Java
 
