@@ -103,7 +103,7 @@ Then we expect an output of a Map containing each person's itinerary:
 			"Amber": ["Theo", "Beccie", "Ama"],
 			"Beccie": ["Ama", "Amber", "Theo"],
 			"Theo": ["Amber", "Ama", "Beccie"],
-			"Ama:" ["Beccie", "Theo", "Amber"]
+			"Ama": ["Beccie", "Theo", "Amber"]
 			}
 ```
 
