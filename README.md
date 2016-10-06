@@ -139,6 +139,17 @@ Example of pairing uneven number of teams:
 ```
 I would suggest following the ["rotating polygon"](https://nrich.maths.org/1443) method to solve this
 
+## Fizzbuzz
+
+https://en.wikipedia.org/wiki/Fizz_buzz
+
+FizzBuzz is a simple number game where you count, but say "Fizz" and/or "Buzz" instead of numbers adhering to certain rules.
+Instead of numbers divisible by three print "Fizz".
+Instead of numbers divisible by five print "Buzz".
+Instead of numbers divisible by three and five print "FizzBuzz".
+
+Example: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz ......
+
 # 2015 Katas
 
 ## Minesweeper Kata
