@@ -18,7 +18,7 @@ Find the difference between the sum of the squares of the first one hundred natu
 public class SumSquareDifference {
 
     public static int findDifference(int number) {
-        return 0;
+        return -1;
     }
 
 }
