@@ -20,6 +20,24 @@ RSpec::Core::RakeTask.new(:test_minesweeper) do |t|
   t.rspec_opts = '--format documentation'
 end
 
+desc "Run Pig Latin tests"
+RSpec::Core::RakeTask.new(:test_piglatin) do |t|
+  t.pattern = Dir.glob('spec/**/pig_latin_spec.rb')
+  t.rspec_opts = '--format documentation'
+end
+
+desc "Run Sum Square tests"
+RSpec::Core::RakeTask.new(:test_sumsquare) do |t|
+  t.pattern = Dir.glob('spec/**/sum_square_difference_spec.rb')
+  t.rspec_opts = '--format documentation'
+end
+
+desc "Run minesweeper tests"
+RSpec::Core::RakeTask.new(:test_minesweeper) do |t|
+  t.pattern = Dir.glob('spec/**/minesweeper_spec.rb')
+  t.rspec_opts = '--format documentation'
+end
+
 desc "Run all tests"
 RSpec::Core::RakeTask.new(:all_tests) do |t|
   t.pattern = Dir.glob('spec/**/*_spec.rb')
