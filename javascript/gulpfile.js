@@ -34,6 +34,11 @@ gulp.task('piglatin', function () {
 	.pipe(mocha({reporter: 'nyan'}));
 });
 
+gulp.task('sumsquare', function () {
+    return gulp.src(['src/main/year2016/*.js','src/test/year2016/sumSquareDifference.spec.js'], {read: false})
+	.pipe(mocha({reporter: 'nyan'}));
+});
+
 gulp.task('fizzbuzz', function () {
     return gulp.src(['src/main/year2016/*.js','src/test/year2016/fizzbuzz.spec.js'], {read: false})
 	.pipe(mocha({reporter: 'nyan'}));
